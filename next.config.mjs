@@ -12,5 +12,5 @@ const withNextIntl = createNextIntlPlugin();
 const nextConfig = {
     pageExtensions: ['ts', 'tsx', 'md', 'mdx'],
 };
-
-export default withNextIntl(withMDX(nextConfig));
+module.exports = nextConfig;
+// export default withNextIntl(withMDX(nextConfig));
