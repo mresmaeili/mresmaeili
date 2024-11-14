@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Mostafa",
+  lastName: "Esmaeili",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Web & Frontend Developer",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Istanbul", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Europe/Istanbul", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Turkish", "Persian"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -29,12 +29,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/mresmaeili",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://linkedin.com/in/lvlresmaeili",
   },
   {
     name: "X",
@@ -44,7 +44,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:lvlr.esmaeili@gmail.com",
   },
 ];
 
@@ -52,12 +52,23 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Web and Frontend Developer</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I
-      craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      <br /> Experienced web and frontend developer with expertise in:
+      <br />
+      <InlineCode>HTML</InlineCode> <InlineCode>CSS</InlineCode>
+      <InlineCode>JavaScript</InlineCode> <InlineCode>React</InlineCode>
+      <InlineCode>Next.js</InlineCode>
+      <InlineCode>WordPress</InlineCode>
+      <InlineCode>PHP</InlineCode>
+      <br />
+      <br />
+      Proficient in Git for version control and skilled in building dynamic,
+      responsive websites, integrating APIs, and optimizing for SEO. Adept at
+      delivering high-quality, scalable solutions in collaborative, fast-paced
+      environments, with a strong focus on performance, user experience, and
+      best coding practices.
     </>
   ),
 };
@@ -75,17 +86,20 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com/mostafa-esmaeili/30min",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Selene is a Istanbul-based design engineer with a passion for
-        transforming complex challenges into simple, elegant design solutions.
-        Her work spans digital interfaces, interactive experiences, and the
-        convergence of design and technology.
+        Experienced web and frontend developer with expertise in HTML, CSS,
+        JavaScript (ES6+), PHP, React, Next.js, and WordPress. Proficient in Git
+        for version control and skilled in building dynamic, responsive
+        websites, integrating APIs, and optimizing for SEO. Adept at delivering
+        high-quality, scalable solutions in collaborative, fast-paced
+        environments, with a strong focus on performance, user experience, and
+        best coding practices.
       </>
     ),
   },
@@ -94,58 +108,82 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "LARSA LLC",
+        timeframe: "2020 - 2024",
+        role: "Web and Frontend Developer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20%
-            increase in user engagement and 30% faster load times.
+            Developed and maintained responsive, high-performance web
+            applications using React, Next.js, Tailwind CSS, and Bootstrap,
+            enhancing user experience and platform functionality.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows,
-            enabling designers to iterate 50% faster.
+            Led projects for dynamic websites and e-commerce platforms on CMS
+            platforms including WordPress (ACF, WooCommerce), PrestaShop, and
+            Drupal, integrating APIs and advanced features.
+          </>,
+          <>
+            Collaborated within Agile teams using Jira and Git to ensure timely,
+            high-quality delivery and managed deployments with Docker, cPanel,
+            and Plesk for smooth project launches.
           </>,
         ],
         images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/larsa/cover-01.jpg",
+          //   alt: "LARSA Project",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Freelance",
+        timeframe: "2018 - 2020",
+        role: "Web Developer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple
-            platforms, improving design consistency by 40%.
+            Delivered customized WordPress websites for various clients,
+            enhancing their online presence and performance with tailored
+            themes, ACF, and optimized plugins.
           </>,
           <>
-            Led a cross-functional team to launch a new product line,
-            contributing to a 15% increase in overall company revenue.
+            Improved user experience by applying responsive design principles
+            and ensuring cross-browser compatibility, leading to higher client
+            satisfaction.
+          </>,
+          <>
+            Optimized websites for speed and SEO performance, increasing client
+            website traffic and engagement.
           </>,
         ],
-        images: [],
+        images: [
+          // {
+          //   src: "/images/projects/freelance/cover-01.jpg",
+          //   alt: "Freelance Project",
+          //   width: 16,
+          //   height: 9,
+          // },
+        ],
       },
     ],
   },
+
   studies: {
     display: true, // set to false to hide this section
     title: "Studies",
     institutions: [
       {
-        name: "University of Istanbul",
-        description: <>Studied software engineering.</>,
+        name: "MS Computer Engineering",
+        description: <>Beykoz University, Istanbul, Turkey</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "BS Information Technology Engineering",
+        description: <>Payame Noor University</>,
+      },
+      {
+        name: "Mathematics and Physics",
+        description: <>Daneshgah High school</>,
       },
     ],
   },
@@ -154,37 +192,175 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Frontend Development",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>
+            Proficient in HTML, CSS, Bootstrap, Tailwind CSS, and JavaScript for
+            creating responsive, user-friendly interfaces.
+          </>
         ),
         images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/frontend/cover-01.jpg",
+          //   alt: "Frontend project",
+          //   width: 16,
+          //   height: 9,
+          // },
+          // {
+          //   src: "/images/projects/frontend/cover-02.jpg",
+          //   alt: "Frontend project",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
       {
-        title: "Next.js",
+        title: "API Integration",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>
+            Experienced in integrating APIs using Postman, Axios, and
+            Isomorphic-fetch, along with services like SendGrid and Stripe.
+          </>
         ),
         images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/api/cover-01.jpg",
+          //   alt: "API Integration project",
+          //   width: 16,
+          //   height: 9,
+          // },
+        ],
+      },
+      {
+        title: "JavaScript Libraries & Frameworks",
+        description: (
+          <>
+            Skilled with React, Next.js, Redux, i18n, jQuery, Swiper, and GSAP
+            for advanced front-end functionality and animations.
+          </>
+        ),
+        images: [
+          // {
+          //   src: "/images/projects/libraries/cover-01.jpg",
+          //   alt: "JavaScript Libraries project",
+          //   width: 16,
+          //   height: 9,
+          // },
+          // {
+          //   src: "/images/projects/libraries/cover-02.jpg",
+          //   alt: "JavaScript Libraries project",
+          //   width: 16,
+          //   height: 9,
+          // },
+        ],
+      },
+      {
+        title: "CMS & E-commerce Platforms",
+        description: (
+          <>
+            Experienced with WordPress (Theme Development, ACF, WooCommerce),
+            PrestaShop, and Drupal for managing content and e-commerce
+            solutions.
+          </>
+        ),
+        images: [
+          // {
+          //   src: "/images/projects/cms/cover-01.jpg",
+          //   alt: "CMS project",
+          //   width: 16,
+          //   height: 9,
+          // },
+        ],
+      },
+      {
+        title: "Backend & Database",
+        description: (
+          <>
+            Knowledgeable in PHP, phpMyAdmin, Express, and MongoDB for backend
+            development and database management.
+          </>
+        ),
+        images: [
+          // {
+          //   src: "/images/projects/backend/cover-01.jpg",
+          //   alt: "Backend project",
+          //   width: 16,
+          //   height: 9,
+          // },
+        ],
+      },
+      {
+        title: "Version Control",
+        description: (
+          <>
+            Experienced in using Git and GitLab for version control and
+            collaborative project workflows.
+          </>
+        ),
+        images: [
+          // {
+          //   src: "/images/projects/version-control/cover-01.jpg",
+          //   alt: "Version Control project",
+          //   width: 16,
+          //   height: 9,
+          // },
+        ],
+      },
+      {
+        title: "Design Tools",
+        description: (
+          <>
+            Proficient in Figma, Adobe XD, and Illustrator for prototyping,
+            design, and UI/UX planning.
+          </>
+        ),
+        images: [
+          // {
+          //   src: "/images/projects/design-tools/cover-01.jpg",
+          //   alt: "Design Tools project",
+          //   width: 16,
+          //   height: 9,
+          // },
+          // {
+          //   src: "/images/projects/design-tools/cover-02.jpg",
+          //   alt: "Design Tools project",
+          //   width: 16,
+          //   height: 9,
+          // },
+        ],
+      },
+      {
+        title: "Project Management & Collaboration",
+        description: (
+          <>
+            Skilled in using Jira and Trello for project management and team
+            collaboration.
+          </>
+        ),
+        images: [
+          // {
+          //   src: "/images/projects/project-management/cover-01.jpg",
+          //   alt: "Project Management project",
+          //   width: 16,
+          //   height: 9,
+          // },
+        ],
+      },
+      {
+        title: "Hosting & Deployment",
+        description: (
+          <>
+            Experienced in Docker, cPanel, Plesk, and FTP for web hosting,
+            deployment, and server management.
+          </>
+        ),
+        images: [
+          // {
+          //   src: "/images/projects/hosting-deployment/cover-01.jpg",
+          //   alt: "Hosting and Deployment project",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
     ],

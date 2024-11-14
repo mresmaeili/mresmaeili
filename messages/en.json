@@ -1,6 +1,6 @@
 {
   "person": {
-    "role": "Design Engineer"
+    "role": "Web & Frontend Developer"
   },
   "newsletter": {
     "title": "Subscribe to {firstName}'s Newsletter",
@@ -11,8 +11,8 @@
     "label": "Home",
     "title": "{name}'s Portfolio",
     "description": "Portfolio website showcasing my work as a {role}",
-    "headline": "Design engineer and builder",
-    "subline": "I'm Mostafa, a design engineer at FLY, where I craft intuitive user experiences. After hours, I build my own projects."
+    "headline": "Web & Frontend Developer",
+    "subline": "I'm Mostafa, a Web & Frontend Developer, where I craft intuitive user experiences."
   },
   "about": {
     "label": "About",
@@ -20,42 +20,63 @@
     "description": "Meet {name}, {role} from {location}",
     "intro": {
       "title": "Introduction",
-      "description": "Mostafa is a Istanbul-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology."
+      "description": "Mostafa is a Istanbul-based Web & Frontend Developer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology."
     },
     "work": {
       "title": "Work Experience",
       "experiences": {
-        "FLY": {
-          "timeframe": "2022 - Present",
-          "role": "Senior Design Engineer",
-          "achievements": "Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.;Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster."
+        "LARSA LLC": {
+          "timeframe": "2020 - 2024",
+          "role": "Senior Web & Frontend Developer",
+          "achievements": "Developed and maintained responsive, high-performance web applications using React, Next.js, Tailwind CSS, and Bootstrap. Led projects for dynamic websites and e-commerce platforms on CMS platforms like WordPress (ACF, WooCommerce), PrestaShop, and Drupal, with integrated APIs and."
         },
         "Creativ3": {
-          "timeframe": "2018 - 2022",
-          "role": "Lead Designer",
-          "achievements": "Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.;Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue."
+          "timeframe": "2018 - 2020",
+          "role": "Web Developer",
+          "achievements": "Specializing in WordPress development, delivered customized websites for various clients, enhancing their online presence and performance. Develop dynamic content themes using ACF, customized plugins, and optimized websites for better speed and SEO performance."
         }
       }
     },
     "studies": {
       "title": "Studies",
       "institutions": {
-        "University of Istanbul": {
-          "description": "Studied software engineering."
+        "University of Beykoz Istanbul": {
+          "description": "MS Computer Engineering"
         },
-        "Build the Future": {
-          "description": "Studied online marketing and personal branding."
+        " Payame Noor University": {
+          "description": "BS Information Technology Engineering"
         }
       }
     },
     "technical": {
-      "title": "Technical skills",
+      "title": "Technical Skills",
       "skills": {
-        "Figma": {
-          "description": "Able to prototype in Figma with Once UI with unnatural speed."
+        "Frontend": {
+          "description": "Proficient in HTML, CSS, Bootstrap, Tailwind CSS, and JavaScript for building responsive and interactive user interfaces."
         },
-        "Nextjs": {
-          "description": "Building next gen apps with Next.js + Once UI + Supabase."
+        "APIs": {
+          "description": "Experienced in Microservice API Integration using tools and libraries like Postman, Axios, Isomorphic-fetch, SendGrid, and Stripe."
+        },
+        "Libraries": {
+          "description": "Skilled with modern libraries and frameworks, including React, Next.js, Redux, i18n, jQuery, Swiper, and GSAP for advanced functionality and animations."
+        },
+        "CMS & Platforms": {
+          "description": "Experienced with WordPress (Theme Development, ACF, WooCommerce), PrestaShop, and Drupal for dynamic content management and e-commerce solutions."
+        },
+        "Backend & Database": {
+          "description": "Knowledgeable in PHP, phpMyAdmin, Express, and MongoDB for server-side programming and database management."
+        },
+        "Version Control": {
+          "description": "Experienced with Git and GitLab for version control and collaborative development workflows."
+        },
+        "Design Tools": {
+          "description": "Proficient with Figma, Adobe XD, and Illustrator for design prototyping and UI/UX design."
+        },
+        "Project Management & Collaboration": {
+          "description": "Familiar with Jira and Trello for project management and team collaboration."
+        },
+        "Hosting & Deployment": {
+          "description": "Experienced in using Docker, cPanel, Plesk, and FTP for web hosting and deployment."
         }
       }
     }

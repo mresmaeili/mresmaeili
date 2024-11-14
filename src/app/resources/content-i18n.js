@@ -2,15 +2,15 @@ import { InlineCode } from "@/once-ui/components";
 
 const createI18nContent = (t) => {
   const person = {
-    firstName: "Selene",
-    lastName: "Yu",
+    firstName: "Mostafa",
+    lastName: "Esmaeili",
     get name() {
       return `${this.firstName} ${this.lastName}`;
     },
     role: t("person.role"),
     avatar: "/images/avatar.jpg",
-    location: "Asia/Istanbul", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+    location: "Turkiye/Istanbul",
+    languages: ["English", "Turkish", "Persian"],
   };
 
   const newsletter = {
@@ -25,12 +25,12 @@ const createI18nContent = (t) => {
     {
       name: "GitHub",
       icon: "github",
-      link: "https://github.com/once-ui-system/nextjs-starter",
+      link: "https://github.com/mresmaeili",
     },
     {
       name: "LinkedIn",
       icon: "linkedin",
-      link: "https://www.linkedin.com/company/once-ui/",
+      link: "https://linkedin.com/in/lvlresmaeili",
     },
     {
       name: "X",
@@ -40,7 +40,7 @@ const createI18nContent = (t) => {
     {
       name: "Email",
       icon: "email",
-      link: "mailto:example@gmail.com",
+      link: "mailto:lvlr.esmaeili@gmail.com",
     },
   ];
 
@@ -69,7 +69,7 @@ const createI18nContent = (t) => {
     },
     calendar: {
       display: true,
-      link: "https://cal.com",
+      link: "https://cal.com/mostafa-esmaeili/30min",
     },
     intro: {
       display: true,
